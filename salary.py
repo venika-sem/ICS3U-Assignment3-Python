@@ -4,7 +4,7 @@
 # Created on: oct 2022
 # This program gives a bonus of 5% of yearly salary
 
-import math
+
 import constants
 
 

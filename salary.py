@@ -5,24 +5,23 @@
 # This program gives a bonus of 5% of yearly salary
 
 import math
+import constants
 
 
 def main():
     # this function gives a bonus of 5% of yearly salary
 
     # input
-    salary = int(input("Please, enter your salary: "))
+    salary = float(input("Please, enter your salary: "))
     print("")
 
-    year_of_service = int(input("Please, enter year of service: "))
+    year_of_service = float(input("Please, enter year of service: "))
     print("")
 
-    # process 
-    5 / 100 * salary
-    
-    #output
-    if year_of_service > 5:
-        print("You are eligible for the 5 percent bonus!".format(5 / 100 * salary))
+    # output
+    if year_of_service > constants.BONUS_YEARS:
+        bonus = constants.BONUS_PERCENT * salary
+        print("You are eligible for bonus! The net bonus is: {0} .".format(bonus))
     else:
         print("Sorry, you are not eligible for the 5 percent bonus.")
 

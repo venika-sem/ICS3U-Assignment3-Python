@@ -2,14 +2,14 @@
 
 # Created by: Venika Sem
 # Created on: oct 2022
-# This program gives a bonus of 5% of yearly salary
+# This program gives a bonus of 5 percent of yearly salary
 
 
 import constants
 
 
 def main():
-    # this function gives a bonus of 5% of yearly salary
+    # this function gives a bonus of 5 percent of yearly salary
 
     # input
     salary = float(input("Please, enter your salary: "))

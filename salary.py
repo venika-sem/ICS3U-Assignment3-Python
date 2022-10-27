@@ -15,7 +15,7 @@ def main():
     salary = float(input("Please, enter your salary: "))
     print("")
 
-    year_of_service = float(input("Please, enter year of service: "))
+    year_of_service = float(input("Please, enter years of service: "))
     print("")
 
     # output
